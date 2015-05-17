@@ -4,6 +4,7 @@ Por Ricardo Guerrero Hurtado
 Prepare the Environment
 ```{r}
 library(knitr)
+opts_chunk$set(fig.path="figure/")
 library(ggplot2)
 opts_chunk$set(echo = TRUE, results = 'hold')
 ```
